@@ -7,6 +7,8 @@ SBT support in FOSSA CLI depends on the following tools existing in your environ
 - Java (defaults to `java`, configure with `$JAVA_BINARY`)
 - SBT (defaults to `sbt`, configure with `$SBT_BINARY`)
 
+To install SBT (reference https://www.scala-sbt.org/1.0/docs/Setup.html)
+
 In addition, SBT must have the following plugin installed:
 - `net.virtual-void.sbt-dependency-graph`: install by adding `addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.9.0")` to your SBT configuration
 
